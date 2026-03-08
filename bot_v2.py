@@ -26,7 +26,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # ── Config ──────────────────────────────────────────────────
-BOT_TOKEN   = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN   = os.environ.get("8626671572:AAHa53iR5Jw_ko2kKI-YtU9cXBF2wPIgv78")
 SHEETS_URL  = os.environ.get("SHEETS_WEBHOOK", "")   # Google Apps Script webhook
 EMAIL_CHAT  = os.environ.get("REPORT_CHAT_ID", "")   # Telegram chat ID for monthly report
 DB_FILE     = "rental_data.json"
